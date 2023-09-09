@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Syed Wassam Zubair Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Syed Wassam Zubair Portfolio</h2>
+							<p>Freshly graduate Software Engineer plus Flutter Developer</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/Me-PhotoRoom.png-PhotoRoom.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Syed Wassam Zubair</h2>
+										<p>I'm a freshly graduate Software Engineer specialized in Mobile Application Development using Flutter Framework. I am committed to staying up-to-date with the latest industry trends and best practices, continuously expanding my skill set, and solving technical challenges with creative solutions.</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<div class="content">
+										<h2 class="major">Experience</h2>
+										<h3 class="major">Internship Trainee</h3>
+										<p><b>Fauji Fertilizer Company Limited - Internship</b><br>Aug 2022 - Sep 2022</p>
+										<h3 class="major">Freelance Flutter Developer</h3>
+										<p>As a Flutter developer, I have accumulated a wealth of experience and expertise in crafting highly functional and visually appealing cross-platform mobile applications.<br>May 2023 - Present</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Projects Section -->
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 id = "projects" class="major">Projects</h2>
+	
+									<section class="features">
+										<!-- MedXpress Project -->
+										<article>
+											<a href="#" class="medxpress_image"><img src="images/MedXpress1.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="medxpress_image"><img src="images/MedXpress2.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="medxpress_image"><img  src="images/MedXpress3.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="medxpress_image"><img  src="images/MedXpress4.jpg" alt="" height="700" width="100%"/></a>
+											<button class="button-left-medxpress" onclick="plusDivsMedXpress(-1)" style="margin-right: 100px; margin-left: 10px;">&#10094;</button>
+  											<button class="button-right-medxpress" onclick="plusDivsMedXpress(1)" style="margin-left: 100px;">&#10095;</button>
+											<p></p>
+											<script>
+												var slideIndexMedXpress = 1;
+												showDivsMedXpress(slideIndexMedXpress);
+												
+												function plusDivsMedXpress(n) {
+													showDivsMedXpress(slideIndexMedXpress += n);
+												}
+												
+												function showDivsMedXpress(n) {
+												  var i;
+												  var x = document.getElementsByClassName("medxpress_image");
+												  if (n > x.length) {slideIndexMedXpress = 1}
+												  if (n < 1) {slideIndexMedXpress = x.length}
+												  for (i = 0; i < x.length; i++) {
+													x[i].style.display = "none";  
+												  }
+												  x[slideIndexMedXpress-1].style.display = "block";  
+												}
+											</script>
+											<h3 class="major">MedXpress</h3>
+											<p>MedXpress is a mobile-based platformto provide free medicines to individuals that do not have direct access to medicines or cannot afford it.In many areas medicines are very costly and often get wasted because of low demand. To reduce the negative impact of wastage & affordability we can provide ease to needy persons by giving away those unused medicines with usage protections</p>
+											<h3 class="major">Roles & Responsibilities</h3>
+											<p>Requirement Analysis, Architecture &Design, Development</p>
+											<h3 class="major">Technologies</h3>
+											<p>Flutter, Firebase</p>
+										</article>
+										<!-- Maverick AI Project -->
+										<article>
+											<a href="#" class="maverickai_image"><img src="images/Maverick1.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="maverickai_image"><img src="images/Maverick2.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="maverickai_image"><img  src="images/Maverick3.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="maverickai_image"><img  src="images/Maverick4.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="maverickai_image"><img  src="images/Maverick5.jpg" alt="" height="700" width="100%"/></a>
+											<button class="button-left" onclick="plusDivsMaverick(-1)" style="margin-right: 100px; margin-left: 10px;">&#10094;</button>
+  											<button class="button-right" onclick="plusDivsMaverick(1)" style="margin-left: 100px;">&#10095;</button>
+											<p></p>
+											<script>
+												var slideIndex = 1;
+												showDivsMaverick(slideIndex);
+												
+												function plusDivsMaverick(n) {
+													showDivsMaverick(slideIndex += n);
+												}
+												
+												function showDivsMaverick(n) {
+												  var i;
+												  var x = document.getElementsByClassName("maverickai_image");
+												  if (n > x.length) {slideIndex = 1}
+												  if (n < 1) {slideIndex = x.length}
+												  for (i = 0; i < x.length; i++) {
+													x[i].style.display = "none";  
+												  }
+												  x[slideIndex-1].style.display = "block";  
+												}
+												</script>
+											<h3 class="major">Maverick AI</h3>
+											<p>Maverick AI is an AI-based virtual assistant that leverages the OPENAI-API to behave like a true assistant to increase your productivity. The aim of the project is to create a mobile app that can help users with scheduling, messaging, recommending things to do, and providing productivity suggestions based on user inputs and OPENAI's natural language processing capabilities. User can send/schedule WhatsApp Messages, Add event in calendar and send an email.
+												as well.</p>
+												<h3 class="major">Roles & Responsibilities</h3>
+											<p>Software Development</p>
+											<h3 class="major">Technologies</h3>
+											<p>Flutter, Firebase, CHATGPT API,Riverpod State Management, MVC Architecture, Google Auth</p>
+										</article>
+										<!-- IELTS App -->
+										<article>
+											<a href="#" class="ielts_image"><img src="images/IELTS1.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="ielts_image"><img src="images/IELTS2.jpg" alt="" height="700" width="100%"/></a>
+											<a href="#" class="ielts_image"><img  src="images/IELTS3.jpg" alt="" height="700" width="100%"/></a>	
+											<button class="button-left-medxpress" onclick="plusDivsIETLS(-1)" style="margin-right: 100px; margin-left: 10px;">&#10094;</button>
+  											<button class="button-right-medxpress" onclick="plusDivsIETLS(1)" style="margin-left: 100px;">&#10095;</button>
+											<p></p>
+											<script>
+												var slideIndexIELTS = 1;
+												showDivsIELTS(slideIndexIELTS);
+												
+												function plusDivsIETLS(n) {
+													showDivsIELTS(slideIndexIELTS += n);
+												}
+												
+												function showDivsIELTS(n) {
+												  var i;
+												  var x = document.getElementsByClassName("ielts_image");
+												  if (n > x.length) {slideIndexIELTS = 1}
+												  if (n < 1) {slideIndexIELTS = x.length}
+												  for (i = 0; i < x.length; i++) {
+													x[i].style.display = "none";  
+												  }
+												  x[slideIndexIELTS-1].style.display = "block";  
+												}
+											</script>
+											<h3 class="major">Canada Educational Zone</h3>
+											<p>Canada Educational Zone is an IELTS Preperation App to assist users in preparing for the International English Language Testing System (IELTS) examination. The app leverages the power of the Flutter framework to deliver a seamless user experience, offering a wide range of features that cater to the specific needs of IELTS aspirants.</p>
+											<h3 class="major">Roles & Responsibilities</h3>
+											<p>Software Development</p>
+											<h3 class="major">Technologies</h3>
+											<p>Flutter, Firebase, MVC Architecture</p>
+										</article>
+									</section>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 id = "contact" class="major">Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rawalpindi,
+									Pakistan
+								</li>
+								<li class="icon solid fa-phone">+92-3009673799</li>
+								<li class="icon solid fa-envelope"><a href="#">syedwassam9@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/syed-wassam-zubair-62410b24a">https://www.linkedin.com/in/syed-wassam-zubair-62410b24a</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/Wassam007">https://github.com/Wassam007</a></li>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
